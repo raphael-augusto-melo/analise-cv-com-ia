@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ambiente Virtual
+venv/
+.env
+
+# Curriculos
+curriculos/
+
+# Arquivos confidenciais
+credentials.json
+db.json
+token.json
