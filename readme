@@ -1,3 +1,11 @@
+Análise de Currículos com IA Utilizando as seguintes tecnologias:
+- Python
+- LangChain
+- TinyDB
+- ChatGroq API
+- Google Drive API
+
+
 Passo a passo para rodar o programa:
 
 1 - Autenticar-se ao projeto no google cloud. Rode o script authenticate.py (é necessário estar incluído no projeto com OAuth2 da google)
