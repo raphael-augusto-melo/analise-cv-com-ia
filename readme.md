@@ -18,16 +18,16 @@ Passo a passo para rodar o programa:
 
     Rode o script download-cv.py para que ele possa realizar o download dos arquivos dentro da pasta 'curriculos' usando a API do Google Drive.
 
-3 - Caso o banco de dados esteja vazio e não populado, execute os scripts create_job.py para criar as vegas desejadas.
+4 - Caso o banco de dados esteja vazio e não populado, execute os scripts create_job.py para criar as vegas desejadas.
     No arquivo create_job, você define os requisitos da vaga, como pré requisitos, diferenciais, etc...
 
-4 - Criar uma conta no site da groq (https://console.groq.com/playground) e criar uma API key
+5 - Criar uma conta no site da groq (https://console.groq.com/playground) e criar uma API key
 
-5 - Criar um arquivo .env na raiz do projeto com uma variável chamada GROQ_API_KEY e inserir sua API key gerada no arquivo.
+6 - Criar um arquivo .env na raiz do projeto com uma variável chamada GROQ_API_KEY e inserir sua API key gerada no arquivo.
         Exemplo da estrutura do arquivo: GROQ_API_KEY='sua api key'
 
-6 - Executar o script analise.py para gerar as análises de cada currículo por vaga. Este script costuma demorar para rodar.
+7 - Executar o script analise.py para gerar as análises de cada currículo por vaga. Este script costuma demorar para rodar.
 
-7 - Após realizar as etapas acima, executar 'streamlit run app.py' para carregar o frontend e ter a análise dos dados.
+8 - Após realizar as etapas acima, executar 'streamlit run app.py' para carregar o frontend e ter a análise dos dados.
 
 OBS: As dependências usadas no projeto estão no arquivo pyproject.toml
